@@ -94,7 +94,7 @@ def process_reconciliation(df_cust, df_bank):
 
 # --- PAGE 1: PROCESSING DASHBOARD ---
 if page == "🔍 Processing Dashboard":
-    st.title("🛡️ Positive Pay: Image Verification")
+    st.title("🛡️ Positive Pay Management")
     
     with st.expander("🛠️ Step 1: Download 20 Fraud Scenarios", expanded=True):
         st.write("Click both buttons to get the testing files containing varied fraud types.")
