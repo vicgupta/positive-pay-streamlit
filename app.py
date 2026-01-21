@@ -129,8 +129,8 @@ if page == "🔍 Processing Dashboard":
                     
                     with st.expander("👁️ View Check Images"):
                         i1, i2 = st.columns(2)
-                        i1.image(f"https://placehold.co/600x200/f8f9fa/333?text=FRONT+#{check_num}%0A{row['Payee']}", use_container_width=True)
-                        i2.image(f"https://placehold.co/600x200/e9ecef/666?text=BACK+#{check_num}", use_container_width=True)
+                        i1.image(f"https://placehold.co/600x300/f8f9fa/333?text=FRONT-{check_num}", use_container_width=True)
+                        i2.image(f"https://placehold.co/600x300/e9ecef/666?text=BACK-{check_num}", use_container_width=True)
                 
                 with action_col:
                     if item_id not in st.session_state.decisions:
